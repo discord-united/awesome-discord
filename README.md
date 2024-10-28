@@ -1,4 +1,4 @@
-# Awesome Discord Projects
+# Awesome Discord
 
 ![Last Commit](https://img.shields.io/github/last-commit/cookieauth/awesome-discord?style=flat-square) ![Stars](https://img.shields.io/github/stars/cookieauth/awesome-discord?style=flat-square)
 
@@ -33,7 +33,7 @@ These bots are designed to help with moderation tasks, ensuring your server rema
 
 - [Modmail](https://github.com/kyb3r/modmail)  
   ![GitHub stars](https://img.shields.io/github/stars/kyb3r/modmail?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/kyb3r/modmail?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/kyb3r/modmail?style=flat-square) ![License](https://img.shields.io/github/license/kyb3r/modmail?style=flat-square)  
-  A Discord bot that provides a modmail-like experience, allowing server members to open a ticket with staff for assistance.
+  A Discord bot that functions as a shared inbox between staff and members, similar to Reddit's Modmail. 
 
 - [Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot)  
   ![GitHub stars](https://img.shields.io/github/stars/Cog-Creators/Red-DiscordBot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Cog-Creators/Red-DiscordBot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Cog-Creators/Red-DiscordBot?style=flat-square) ![License](https://img.shields.io/github/license/Cog-Creators/Red-DiscordBot?style=flat-square)  
@@ -111,6 +111,10 @@ These bots offer a wide range of features, including moderation, music, games, a
   ![GitHub stars](https://img.shields.io/github/stars/RTByte/rtbyte?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/RTByte/rtbyte?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/RTByte/rtbyte?style=flat-square) ![License](https://img.shields.io/github/license/RTByte/rtbyte?style=flat-square)  
   A modular TypeScript-based Discord bot with a focus on performance and scalability.
 
+- [NadekoBot](https://gitlab.com/Kwoth/nadekobot) ![GitLab Stars](https://img.shields.io/gitlab/stars/Kwoth%2Fnadekobot) ![GitLab Last Commit](https://img.shields.io/gitlab/last-commit/Kwoth%2Fnadekobot?style=flat-square) ![GitLab License](https://img.shields.io/gitlab/license/Kwoth%2Fnadekobot?style=flat-square)
+ 
+  A multi-purpose bot with modular customization for moderation, games, and music.
+
 ### Utility Bots
 
 **[`^        back to top        ^`](#awesome-discord-projects)**
@@ -140,6 +144,10 @@ These bots add tools and productivity features to your server, making tasks like
 - [SudoBot](https://github.com/onesoft-sudo/sudobot)  
   ![GitHub stars](https://img.shields.io/github/stars/onesoft-sudo/sudobot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/onesoft-sudo/sudobot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/onesoft-sudo/sudobot?style=flat-square) ![License](https://img.shields.io/github/license/onesoft-sudo/sudobot?style=flat-square)  
   A modular Discord bot with various utility features.
+
+- [Discord Member Status Bot](https://github.com/coslynx/discord-member-status-bot)  
+  ![GitHub stars](https://img.shields.io/github/stars/coslynx/discord-member-status-bot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/coslynx/discord-member-status-bot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/coslynx/discord-member-status-bot?style=flat-square) ![License](https://img.shields.io/github/license/coslynx/discord-member-status-bot?style=flat-square)  
+Discord bot designed to provide real-time insights into member activity within a server. Utilizing a robust tech stack comprising TypeScript, Discord.js, MySQL, and the Discord API, the bot empowers server administrators with invaluable data to make informed decisions regarding server management and member engagement.
 
 ---
 
