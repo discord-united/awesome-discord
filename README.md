@@ -51,6 +51,10 @@ These bots are designed to help with moderation tasks, ensuring your server rema
   ![GitHub stars](https://img.shields.io/github/stars/zaanposni/discord-masz?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/zaanposni/discord-masz?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/zaanposni/discord-masz?style=flat-square) ![License](https://img.shields.io/github/license/zaanposni/discord-masz?style=flat-square)  
   A moderation bot with advanced features for managing Discord servers.
 
+- [Modmail Bot](https://github.com/Dragory/modmailbot)  
+  ![GitHub stars](https://img.shields.io/github/stars/Dragory/modmailbot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Dragory/modmailbot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Dragory/modmailbot?style=flat-square) ![License](https://img.shields.io/github/license/Dragory/modmailbot?style=flat-square)  
+  Modmail Bot is a bot for Discord that makes it easier for users to contact moderators and admins for help. 
+
 ### Music Bots
 
 **[`^        back to top        ^`](#awesome-discord-projects)**
@@ -192,6 +196,10 @@ Projects that provide dashboards or web interfaces for managing Discord bots or 
 - [Dashboard-Discord-EJS](https://github.com/JeanVydes/dashboard-discord-ejs)  
   ![GitHub stars](https://img.shields.io/github/stars/JeanVydes/dashboard-discord-ejs?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/JeanVydes/dashboard-discord-ejs?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/JeanVydes/dashboard-discord-ejs?style=flat-square) ![License](https://img.shields.io/github/license/JeanVydes/dashboard-discord-ejs?style=flat-square)  
   A Discord bot dashboard template using EJS and Express.
+
+- [Discord-Dashboard (v2)](https://github.com/Discord-Dashboard/Core)  
+  ![GitHub stars](https://img.shields.io/github/stars/Discord-Dashboard/Core?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Discord-Dashboard/Core?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Discord-Dashboard/Core?style=flat-square) ![License](https://img.shields.io/github/license/Discord-Dashboard/Core?style=flat-square)  
+  A moderation bot with advanced features for managing Discord servers.
 
 ---
 
