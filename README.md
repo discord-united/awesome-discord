@@ -1,279 +1,111 @@
-# Awesome Discord
-
-![Last Commit](https://img.shields.io/github/last-commit/cookieauth/awesome-discord?style=flat-square) ![Stars](https://img.shields.io/github/stars/cookieauth/awesome-discord?style=flat-square)
-
-A curated collection of free, open-source Discord projects. This repository gathers a wide range of high-quality bots, frameworks, dashboards, templates, and more across different categories, making it easy for you to find the perfect solution for any Discord-related development or server need. Whether you want to improve server management, build your own bot, or enhance community engagement, this list has something for everyone.
+# awesome-discord
 
 ---
 
-## Table of Contents
+## Introduction
 
-- [Bots](#bots)
-  - [Moderation Bots](#moderation-bots)
-  - [Music Bots](#music-bots)
-  - [Multipurpose Bots](#multipurpose-bots)
-  - [Utility Bots](#utility-bots)
-- [Frameworks & Libraries](#frameworks--libraries)
-- [Dashboards & Web Interfaces](#dashboards--web-interfaces)
-- [Templates & Boilerplates](#templates--boilerplates)
-- [Landing Pages](#landing-pages)
-- [Developer Tools](#developer-tools)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
+Welcome to **Discord United**, your home for high‑quality, community‑driven open‑source Discord projects.
+
+Discord United is a GitHub organization committed to building, curating, and maintaining open‑source tools and resources that empower everyone in the Discord ecosystem—bot developers, community administrators, and end users alike.
+
+![Last Commit](https://img.shields.io/github/last-commit/discord-united/awesome-discord?style=flat-square) ![Stars](https://img.shields.io/github/stars/discord-united/awesome-discord?style=flat-square)
 
 ---
+
+<!-- TOC -->
+* [awesome-discord](#awesome-discord)
+  * [Introduction](#introduction)
+  * [Bot Templates](#bot-templates)
+  * [Bots](#bots)
+  * [Dashboards](#dashboards)
+  * [Developer Tools](#developer-tools)
+  * [Libraries](#libraries)
+  * [Platforms](#platforms)
+  * [Website Templates](#website-templates)
+<!-- TOC -->
+
+---
+
+## Bot Templates
+
+| Project Name | ⏱️ | 🖥️ | 📄 | Description |
+| ------------ | -- | -- | - | ----------- |
+| [discordjs-v14-template-ts](https://github.com/MericcaN41/discordjs-v14-template-ts) | ![Commit](https://img.shields.io/github/last-commit/mericcan41/discordjs-v14-template-ts?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/mericcan41/discordjs-v14-template-ts?style=flat-square) | ![License](https://img.shields.io/github/license/mericcan41/discordjs-v14-template-ts?style=flat-square) | A typescript template for Discord.js v14 that includes handlers, slash commands, mongodb, permissions and more. |
+| [Python-Discord-Bot-Template](https://github.com/kkrypt0nn/Python-Discord-Bot-Template) | ![Commit](https://img.shields.io/github/last-commit/kkrypt0nn/python-discord-bot-template?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/kkrypt0nn/python-discord-bot-template?style=flat-square) | ![License](https://img.shields.io/github/license/kkrypt0nn/python-discord-bot-template?style=flat-square) | 🐍 A simple template to start to code your own and personalized Discord bot in Python |
 
 ## Bots
 
-### Moderation Bots
-
-**[`^        back to top        ^`](#awesome-discord-projects)**
-
-These bots are designed to help with moderation tasks, ensuring your server remains safe and organized.
-
-- [Modmail](https://github.com/kyb3r/modmail)  
-  ![GitHub stars](https://img.shields.io/github/stars/kyb3r/modmail?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/kyb3r/modmail?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/kyb3r/modmail?style=flat-square) ![License](https://img.shields.io/github/license/kyb3r/modmail?style=flat-square)  
-  A Discord bot that functions as a shared inbox between staff and members, similar to Reddit's Modmail. 
-
-- [Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot)  
-  ![GitHub stars](https://img.shields.io/github/stars/Cog-Creators/Red-DiscordBot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Cog-Creators/Red-DiscordBot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Cog-Creators/Red-DiscordBot?style=flat-square) ![License](https://img.shields.io/github/license/Cog-Creators/Red-DiscordBot?style=flat-square)  
-  A multi-purpose bot with modular customization for moderation, games, and music.
-
-- [KarmaBot](https://github.com/DeltaCoderr/KarmaBot)  
-  ![GitHub stars](https://img.shields.io/github/stars/DeltaCoderr/KarmaBot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/DeltaCoderr/KarmaBot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/DeltaCoderr/KarmaBot?style=flat-square) ![License](https://img.shields.io/github/license/DeltaCoderr/KarmaBot?style=flat-square)  
-  A bot to keep track of karma for server members.
-
-- [Discord-Channel-Moderator](https://github.com/Refloow/Discord-Channel-Moderator)  
-  ![GitHub stars](https://img.shields.io/github/stars/Refloow/Discord-Channel-Moderator?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Refloow/Discord-Channel-Moderator?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Refloow/Discord-Channel-Moderator?style=flat-square) ![License](https://img.shields.io/github/license/Refloow/Discord-Channel-Moderator?style=flat-square)  
-  A bot for automatic channel moderation, including anti-spam and auto-moderation features.
-
-- [Discord-MASZ](https://github.com/zaanposni/discord-masz)  
-  ![GitHub stars](https://img.shields.io/github/stars/zaanposni/discord-masz?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/zaanposni/discord-masz?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/zaanposni/discord-masz?style=flat-square) ![License](https://img.shields.io/github/license/zaanposni/discord-masz?style=flat-square)  
-  A moderation bot with advanced features for managing Discord servers.
-
-- [Modmail Bot](https://github.com/Dragory/modmailbot)  
-  ![GitHub stars](https://img.shields.io/github/stars/Dragory/modmailbot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Dragory/modmailbot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Dragory/modmailbot?style=flat-square) ![License](https://img.shields.io/github/license/Dragory/modmailbot?style=flat-square)  
-  Modmail Bot is a bot for Discord that makes it easier for users to contact moderators and admins for help. 
-
-### Music Bots
-
-**[`^        back to top        ^`](#awesome-discord-projects)**
-
-Music bots let you play, control, and manage music in voice channels, adding a great vibe to your server.
-
-- [MusicBot](https://github.com/jagrosh/MusicBot)  
-  ![GitHub stars](https://img.shields.io/github/stars/jagrosh/MusicBot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/jagrosh/MusicBot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/jagrosh/MusicBot?style=flat-square) ![License](https://img.shields.io/github/license/jagrosh/MusicBot?style=flat-square)  
-  A popular music bot for streaming from YouTube, featuring playlists, queue management, and custom commands.
-
-- [Discord-MusicBot](https://github.com/SudhanPlayz/Discord-MusicBot)  
-  ![GitHub stars](https://img.shields.io/github/stars/SudhanPlayz/Discord-MusicBot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/SudhanPlayz/Discord-MusicBot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/SudhanPlayz/Discord-MusicBot?style=flat-square) ![License](https://img.shields.io/github/license/SudhanPlayz/Discord-MusicBot?style=flat-square)  
-  A customizable and feature-rich music bot supporting YouTube, Spotify, and more.
-
-- [Evobot](https://github.com/eritislami/evobot)  
-  ![GitHub stars](https://img.shields.io/github/stars/eritislami/evobot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/eritislami/evobot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/eritislami/evobot?style=flat-square) ![License](https://img.shields.io/github/license/eritislami/evobot?style=flat-square)  
-  A beginner-friendly music bot offering basic queueing and playback features for YouTube.
-
-- [WaveMusic](https://github.com/appujet/WaveMusic)  
-  ![GitHub stars](https://img.shields.io/github/stars/appujet/WaveMusic?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/appujet/WaveMusic?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/appujet/WaveMusic?style=flat-square) ![License](https://img.shields.io/github/license/appujet/WaveMusic?style=flat-square)  
-  A powerful music bot with support for various streaming platforms.
-
-### Multipurpose Bots
-
-**[`^        back to top        ^`](#awesome-discord-projects)**
-
-These bots offer a wide range of features, including moderation, music, games, and more.
-
-- [YAGPDB](https://github.com/botlabs-gg/yagpdb)  
-  ![GitHub stars](https://img.shields.io/github/stars/botlabs-gg/yagpdb?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/botlabs-gg/yagpdb?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/botlabs-gg/yagpdb?style=flat-square) ![License](https://img.shields.io/github/license/botlabs-gg/yagpdb?style=flat-square)  
-  A feature-rich bot for moderation, role management, and automation, with extensive configuration options.
-
-- [Skyra](https://github.com/skyra-project/skyra)  
-  ![GitHub stars](https://img.shields.io/github/stars/skyra-project/skyra?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/skyra-project/skyra?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/skyra-project/skyra?style=flat-square) ![License](https://img.shields.io/github/license/skyra-project/skyra?style=flat-square)  
-  A powerful TypeScript-based Discord bot with a wide range of features.
-
-- [Loritta](https://github.com/LorittaBot/Loritta)  
-  ![GitHub stars](https://img.shields.io/github/stars/LorittaBot/Loritta?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/LorittaBot/Loritta?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/LorittaBot/Loritta?style=flat-square) ![License](https://img.shields.io/github/license/LorittaBot/Loritta?style=flat-square)  
-  A multipurpose Discord bot with features for moderation, music, and fun.
-
-- [Melijn](https://github.com/Melijn/melijn-bot)  
-  ![GitHub stars](https://img.shields.io/github/stars/Melijn/melijn-bot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Melijn/melijn-bot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Melijn/melijn-bot?style=flat-square) ![License](https://img.shields.io/github/license/Melijn/melijn-bot?style=flat-square)  
-  An advanced Discord bot offering moderation, music, and more.
-
-- [AtlantaBot](https://github.com/Androz2091/AtlantaBot)  
-  ![GitHub stars](https://img.shields.io/github/stars/Androz2091/AtlantaBot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Androz2091/AtlantaBot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Androz2091/AtlantaBot?style=flat-square) ![License](https://img.shields.io/github/license/Androz2091/AtlantaBot?style=flat-square)  
-  A modular Discord bot with a web dashboard, offering various features.
-
-- [Lightning](https://github.com/lightning-bot/Lightning)  
-  ![GitHub stars](https://img.shields.io/github/stars/lightning-bot/Lightning?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/lightning-bot/Lightning?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/lightning-bot/Lightning?style=flat-square) ![License](https://img.shields.io/github/license/lightning-bot/Lightning?style=flat-square)  
-  A multipurpose Discord bot with features for moderation, music, and more.
-
-- [Wolfstar](https://github.com/wolfstar-project/wolfstar)  
-  ![GitHub stars](https://img.shields.io/github/stars/wolfstar-project/wolfstar?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/wolfstar-project/wolfstar?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/wolfstar-project/wolfstar?style=flat-square) ![License](https://img.shields.io/github/license/wolfstar-project/wolfstar?style=flat-square)  
-  An all-in-one Discord bot with multiple features for server management and entertainment.
-
-- [RTByte](https://github.com/RTByte/rtbyte)  
-  ![GitHub stars](https://img.shields.io/github/stars/RTByte/rtbyte?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/RTByte/rtbyte?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/RTByte/rtbyte?style=flat-square) ![License](https://img.shields.io/github/license/RTByte/rtbyte?style=flat-square)  
-  A modular TypeScript-based Discord bot with a focus on performance and scalability.
-
-- [NadekoBot](https://gitlab.com/Kwoth/nadekobot) ![GitLab Stars](https://img.shields.io/gitlab/stars/Kwoth%2Fnadekobot) ![GitLab Last Commit](https://img.shields.io/gitlab/last-commit/Kwoth%2Fnadekobot?style=flat-square) ![GitLab License](https://img.shields.io/gitlab/license/Kwoth%2Fnadekobot?style=flat-square)
- 
-  A multi-purpose bot with modular customization for moderation, games, and music.
-
-### Utility Bots
-
-**[`^        back to top        ^`](#awesome-discord-projects)**
-
-These bots add tools and productivity features to your server, making tasks like reminders, polls, and to-do lists easier to manage.
-
-- [MonitoRSS](https://github.com/synzen/MonitoRSS)  
-  ![GitHub stars](https://img.shields.io/github/stars/synzen/MonitoRSS?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/synzen/MonitoRSS?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/synzen/MonitoRSS?style=flat-square) ![License](https://img.shields.io/github/license/synzen/MonitoRSS?style=flat-square)  
-  A Discord bot for delivering RSS feeds to servers.
-
-- [Discord-Backup](https://github.com/ItsChasa/Discord-Backup)  
-  ![GitHub stars](https://img.shields.io/github/stars/ItsChasa/Discord-Backup?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/ItsChasa/Discord-Backup?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/ItsChasa/Discord-Backup?style=flat-square) ![License](https://img.shields.io/github/license/ItsChasa/Discord-Backup?style=flat-square)  
-  A bot for backing up and restoring Discord servers.
-
-- [Discord Tickets](https://github.com/discord-tickets/bot)  
-  ![GitHub stars](https://img.shields.io/github/stars/discord-tickets/bot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/discord-tickets/bot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/discord-tickets/bot?style=flat-square) ![License](https://img.shields.io/github/license/discord-tickets/bot?style=flat-square)  
-  A Discord bot for managing support tickets within your server.
-
-- [InterChat](https://github.com/Discord-InterChat/InterChat)  
-  ![GitHub stars](https://img.shields.io/github/stars/Discord-InterChat/InterChat?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Discord-InterChat/InterChat?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Discord-InterChat/InterChat?style=flat-square) ![License](https://img.shields.io/github/license/Discord-InterChat/InterChat?style=flat-square)  
-  A bot for cross-server chat communication.
-
-- [discord.place](https://github.com/discordplace/discord.place)  
-  ![GitHub stars](https://img.shields.io/github/stars/discordplace/discord.place?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/discordplace/discord.place?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/discordplace/discord.place?style=flat-square) ![License](https://img.shields.io/github/license/discordplace/discord.place?style=flat-square)  
-  A collaborative pixel art canvas for Discord servers.
-
-- [SudoBot](https://github.com/onesoft-sudo/sudobot)  
-  ![GitHub stars](https://img.shields.io/github/stars/onesoft-sudo/sudobot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/onesoft-sudo/sudobot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/onesoft-sudo/sudobot?style=flat-square) ![License](https://img.shields.io/github/license/onesoft-sudo/sudobot?style=flat-square)  
-  A modular Discord bot with various utility features.
-
-- [Discord Member Status Bot](https://github.com/coslynx/discord-member-status-bot)  
-  ![GitHub stars](https://img.shields.io/github/stars/coslynx/discord-member-status-bot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/coslynx/discord-member-status-bot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/coslynx/discord-member-status-bot?style=flat-square) ![License](https://img.shields.io/github/license/coslynx/discord-member-status-bot?style=flat-square)  
-Discord bot designed to provide real-time insights into member activity within a server. Utilizing a robust tech stack comprising TypeScript, Discord.js, MySQL, and the Discord API, the bot empowers server administrators with invaluable data to make informed decisions regarding server management and member engagement.
-
----
-
-## Frameworks & Libraries
-
-**[`^        back to top        ^`](#awesome-discord-projects)**
-
-These libraries provide tools and frameworks to help you create your own Discord bot easily.
-
-- [Discord.js](https://github.com/discordjs/discord.js)  
-  ![GitHub stars](https://img.shields.io/github/stars/discordjs/discord.js?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/discordjs/discord.js?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/discordjs/discord.js?style=flat-square) ![License](https://img.shields.io/github/license/discordjs/discord.js?style=flat-square)  
-  The most popular JavaScript library for building custom Discord bots, with extensive documentation and community support.
-
-- [IgKnite](https://github.com/IgKniteDev/IgKnite)  
-  ![GitHub stars](https://img.shields.io/github/stars/IgKniteDev/IgKnite?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/IgKniteDev/IgKnite?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/IgKniteDev/IgKnite?style=flat-square) ![License](https://img.shields.io/github/license/IgKniteDev/IgKnite?style=flat-square)  
-  A high-performance Discord bot framework.
-
-- [DisTube](https://github.com/distubejs/DisTube)  
-  ![GitHub stars](https://img.shields.io/github/stars/distubejs/DisTube?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/distubejs/DisTube?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/distubejs/DisTube?style=flat-square) ![License](https://img.shields.io/github/license/distubejs/DisTube?style=flat-square)  
-  A feature-rich and easy-to-use music bot module for Discord.js.
-
-- [Discord-Dashboard](https://github.com/Discord-Dashboard/Core)  
-  ![GitHub stars](https://img.shields.io/github/stars/Discord-Dashboard/Core?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Discord-Dashboard/Core?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Discord-Dashboard/Core?style=flat-square) ![License](https://img.shields.io/github/license/Discord-Dashboard/Core?style=flat-square)  
-  A powerful library to create a dashboard for your Discord bot.
-
----
-
-## Dashboards & Web Interfaces
-
-**[`^        back to top        ^`](#awesome-discord-projects)**
-
-Projects that provide dashboards or web interfaces for managing Discord bots or servers.
-
-- [AtlantaBot Dashboard](https://github.com/Androz2091/AtlantaBot)  
-  ![GitHub stars](https://img.shields.io/github/stars/Androz2091/AtlantaBot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Androz2091/AtlantaBot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Androz2091/AtlantaBot?style=flat-square) ![License](https://img.shields.io/github/license/Androz2091/AtlantaBot?style=flat-square)  
-  A modular Discord bot with a web dashboard.
-
-- [Discord Server Dashboard](https://github.com/diwasatreya/Discord-Server-Dashboard)  
-  ![GitHub stars](https://img.shields.io/github/stars/diwasatreya/Discord-Server-Dashboard?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/diwasatreya/Discord-Server-Dashboard?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/diwasatreya/Discord-Server-Dashboard?style=flat-square) ![License](https://img.shields.io/github/license/diwasatreya/Discord-Server-Dashboard?style=flat-square)  
-  A dashboard for managing your Discord server.
-
-- [Dashboard-Discord-EJS](https://github.com/JeanVydes/dashboard-discord-ejs)  
-  ![GitHub stars](https://img.shields.io/github/stars/JeanVydes/dashboard-discord-ejs?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/JeanVydes/dashboard-discord-ejs?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/JeanVydes/dashboard-discord-ejs?style=flat-square) ![License](https://img.shields.io/github/license/JeanVydes/dashboard-discord-ejs?style=flat-square)  
-  A Discord bot dashboard template using EJS and Express.
-
-- [Discord-Dashboard (v2)](https://github.com/Discord-Dashboard/Core)  
-  ![GitHub stars](https://img.shields.io/github/stars/Discord-Dashboard/Core?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Discord-Dashboard/Core?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Discord-Dashboard/Core?style=flat-square) ![License](https://img.shields.io/github/license/Discord-Dashboard/Core?style=flat-square)  
-  A moderation bot with advanced features for managing Discord servers.
-
----
-
-## Templates & Boilerplates
-
-**[`^        back to top        ^`](#awesome-discord-projects)**
-
-Starting points for your own Discord bot projects.
-
-- [Discord Bot Template](https://github.com/CorwinDev/Discord-Bot)  
-  ![GitHub stars](https://img.shields.io/github/stars/CorwinDev/Discord-Bot?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/CorwinDev/Discord-Bot?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/CorwinDev/Discord-Bot?style=flat-square) ![License](https://img.shields.io/github/license/CorwinDev/Discord-Bot?style=flat-square)  
-  A simple Discord bot template using Discord.js.
-
-- [Discord.js v14 Template (TypeScript)](https://github.com/MericcaN41/discordjs-v14-template-ts)  
-  ![GitHub stars](https://img.shields.io/github/stars/MericcaN41/discordjs-v14-template-ts?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/MericcaN41/discordjs-v14-template-ts?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/MericcaN41/discordjs-v14-template-ts?style=flat-square) ![License](https://img.shields.io/github/license/MericcaN41/discordjs-v14-template-ts?style=flat-square)  
-  A template for Discord.js v14 with TypeScript and modern best practices.
-
----
-
-## Landing Pages
-
-**[`^        back to top        ^`](#awesome-discord-projects)**
-
-Templates and examples for creating landing pages for your Discord bot.
-
-- [Discord Bot Landing Page](https://github.com/JastinXyz/discord-bot-landing-page-web)  
-  ![GitHub stars](https://img.shields.io/github/stars/JastinXyz/discord-bot-landing-page-web?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/JastinXyz/discord-bot-landing-page-web?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/JastinXyz/discord-bot-landing-page-web?style=flat-square) ![License](https://img.shields.io/github/license/JastinXyz/discord-bot-landing-page-web?style=flat-square)  
-  A modern and responsive landing page for your Discord bot.
-
-- [Discord Bot Website Template](https://github.com/Hadi-koubeissi/Discord-bot-website-template)  
-  ![GitHub stars](https://img.shields.io/github/stars/Hadi-koubeissi/Discord-bot-website-template?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Hadi-koubeissi/Discord-bot-website-template?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Hadi-koubeissi/Discord-bot-website-template?style=flat-square) ![License](https://img.shields.io/github/license/Hadi-koubeissi/Discord-bot-website-template?style=flat-square)  
-  A sleek and modern website template for promoting your Discord bot.
-
----
+| Project Name | ⏱️ | 🖥️ | 📄 | Description |
+| ------------ | -- | -- | - | ----------- |
+| [ALL-IN-ONE-Discord-Bot-](https://github.com/Uo1428/ALL-IN-ONE-Discord-Bot-) | ![Commit](https://img.shields.io/github/last-commit/uo1428/all-in-one-discord-bot-?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/uo1428/all-in-one-discord-bot-?style=flat-square) | ![License](https://img.shields.io/github/license/uo1428/all-in-one-discord-bot-?style=flat-square) | An advance discord bot with 500+ commands |
+| [AnswerOverflow](https://github.com/AnswerOverflow/AnswerOverflow) | ![Commit](https://img.shields.io/github/last-commit/answeroverflow/answeroverflow?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/answeroverflow/answeroverflow?style=flat-square) | ![License](https://img.shields.io/github/license/answeroverflow/answeroverflow?style=flat-square) | Powering Discord content discovery by making web pages from threads for some of the largest servers, including Valorant, Cloudflare, C#, and Nuxt. |
+| [AtlantaBot](https://github.com/Androz2091/AtlantaBot) | ![Commit](https://img.shields.io/github/last-commit/androz2091/atlantabot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/androz2091/atlantabot?style=flat-square) | ![License](https://img.shields.io/github/license/androz2091/atlantabot?style=flat-square) | 🤖 Another powerful Discord Bot with a web-dashboard used by more than 130k users! |
+| [automod-bot](https://github.com/Khanmanan/automod-bot) | ![Commit](https://img.shields.io/github/last-commit/khanmanan/automod-bot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/khanmanan/automod-bot?style=flat-square) | ![License](https://img.shields.io/github/license/khanmanan/automod-bot?style=flat-square) | Moderation bot discord |
+| [BetterDiscordPanel](https://github.com/SanjaySunil/BetterDiscordPanel) | ![Commit](https://img.shields.io/github/last-commit/sanjaysunil/betterdiscordpanel?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/sanjaysunil/betterdiscordpanel?style=flat-square) | ![License](https://img.shields.io/github/license/sanjaysunil/betterdiscordpanel?style=flat-square) | Message and manage through your Discord bot, self-hosted. |
+| [bot](https://github.com/discord-tickets/bot) | ![Commit](https://img.shields.io/github/last-commit/discord-tickets/bot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/discord-tickets/bot?style=flat-square) | ![License](https://img.shields.io/github/license/discord-tickets/bot?style=flat-square) | The most popular open-source and self-hosted ticket management bot for Discord - a free alternative to the premium and white-label plans of other popular ticketing bots. |
+| [CalypsoBot](https://github.com/sabattle/CalypsoBot) | ![Commit](https://img.shields.io/github/last-commit/sabattle/calypsobot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/sabattle/calypsobot?style=flat-square) | ![License](https://img.shields.io/github/license/sabattle/calypsobot?style=flat-square) | A fully customizable bot built with discord.js |
+| [clancy](https://github.com/brendonmiranda/clancy) | ![Commit](https://img.shields.io/github/last-commit/brendonmiranda/clancy?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/brendonmiranda/clancy?style=flat-square) | ![License](https://img.shields.io/github/license/brendonmiranda/clancy?style=flat-square) | Clancy is a Discord Music Bot made in Spring Boot and Java using JDA |
+| [ClemBot](https://github.com/ClemBotProject/ClemBot) | ![Commit](https://img.shields.io/github/last-commit/clembotproject/clembot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/clembotproject/clembot?style=flat-square) | ![License](https://img.shields.io/github/license/clembotproject/clembot?style=flat-square) | A Discord bot for server management with an emphasis on modularity and configuration. If you have an idea or a feature you would like to contribute feel free to open an issue and we as a community can begin discussion. |
+| [Discord-Channel-Moderator](https://github.com/Refloow/Discord-Channel-Moderator) | ![Commit](https://img.shields.io/github/last-commit/refloow/discord-channel-moderator?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/refloow/discord-channel-moderator?style=flat-square) | ![License](https://img.shields.io/github/license/refloow/discord-channel-moderator?style=flat-square) | ❤️ Discord Moderation Bot that helps you filter commands, (allow) links or filter words in channels where they were not allowed. Script is Node.js based using discord.js built by @Refloow |
+| [discord-masz](https://github.com/zaanposni/discord-masz) | ![Commit](https://img.shields.io/github/last-commit/zaanposni/discord-masz?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/zaanposni/discord-masz?style=flat-square) | ![License](https://img.shields.io/github/license/zaanposni/discord-masz?style=flat-square) | MASZ is a selfhostable highly sophisticated moderation bot for Discord. Includes a web dashboard and a discord bot. |
+| [discord-member-status-bot](https://github.com/coslynx/discord-member-status-bot) | ![Commit](https://img.shields.io/github/last-commit/coslynx/discord-member-status-bot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/coslynx/discord-member-status-bot?style=flat-square) | ![License](https://img.shields.io/github/license/coslynx/discord-member-status-bot?style=flat-square) | Project: Discord Member Status Bot with Embed Updates and Daily Messages. Created at https://spectra.codes, which is owned by @Drix10 |
+| [Discord-MusicBot](https://github.com/SudhanPlayz/Discord-MusicBot) | ![Commit](https://img.shields.io/github/last-commit/sudhanplayz/discord-musicbot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/sudhanplayz/discord-musicbot?style=flat-square) | ![License](https://img.shields.io/github/license/sudhanplayz/discord-musicbot?style=flat-square) | An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support! |
+| [DiscordBot](https://github.com/chalda/DiscordBot) | ![Commit](https://img.shields.io/github/last-commit/chalda/discordbot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/chalda/discordbot?style=flat-square) | ![License](https://img.shields.io/github/license/chalda/discordbot?style=flat-square) | A chat bot for discord app based off discord.js |
+| [evobot](https://github.com/eritislami/evobot) | ![Commit](https://img.shields.io/github/last-commit/eritislami/evobot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/eritislami/evobot?style=flat-square) | ![License](https://img.shields.io/github/license/eritislami/evobot?style=flat-square) | 🤖 EvoBot is a Discord Music Bot built with TypeScript + Discord.js, includes Docker builds & localization in 20+ languages |
+| [InterChat](https://github.com/interchatapp/InterChat) | ![Commit](https://img.shields.io/github/last-commit/discord-interchat/interchat?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/discord-interchat/interchat?style=flat-square) | ![License](https://img.shields.io/github/license/discord-interchat/interchat?style=flat-square) |  A powerful Discord bot for easy and real-time chatting across multiple Discord servers.  |
+| [KarmaBot](https://github.com/sbdh11/KarmaBot) | ![Commit](https://img.shields.io/github/last-commit/deltacoderr/karmabot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/deltacoderr/karmabot?style=flat-square) | ![License](https://img.shields.io/github/license/deltacoderr/karmabot?style=flat-square) | 🤖 A Multipurpose Discord Bot with a Music System & Utility commands used by 200K+ users! |
+| [Lightning](https://github.com/lightning-bot/Lightning) | ![Commit](https://img.shields.io/github/last-commit/lightning-bot/lightning?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/lightning-bot/lightning?style=flat-square) | ![License](https://img.shields.io/github/license/lightning-bot/lightning?style=flat-square) | Empower your Discord moderators with the best moderation tools |
+| [Loritta](https://github.com/LorittaBot/Loritta) | ![Commit](https://img.shields.io/github/last-commit/lorittabot/loritta?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/lorittabot/loritta?style=flat-square) | ![License](https://img.shields.io/github/license/lorittabot/loritta?style=flat-square) | 💁 A multipurpose, multilanguage, customizable, modular, and very cute bot for Discord! ~Making your server more awesome~ |
+| [melijn-bot](https://github.com/Melijn/melijn-bot) | ![Commit](https://img.shields.io/github/last-commit/melijn/melijn-bot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/melijn/melijn-bot?style=flat-square) | ![License](https://img.shields.io/github/license/melijn/melijn-bot?style=flat-square) | A multipurpose discord bot written in kotlin, using jda |
+| [Modmail](https://github.com/modmail-dev/Modmail) | ![Commit](https://img.shields.io/github/last-commit/kyb3r/modmail?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/kyb3r/modmail?style=flat-square) | ![License](https://img.shields.io/github/license/kyb3r/modmail?style=flat-square) | A Discord bot that functions as a shared inbox between staff and members, similar to Reddit's Modmail. |
+| [modmailbot](https://github.com/Dragory/modmailbot) | ![Commit](https://img.shields.io/github/last-commit/dragory/modmailbot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/dragory/modmailbot?style=flat-square) | ![License](https://img.shields.io/github/license/dragory/modmailbot?style=flat-square) | Modmail Bot is a bot for Discord that makes it easier for users to contact moderators and admins for help. |
+| [MonitoRSS](https://github.com/synzen/MonitoRSS) | ![Commit](https://img.shields.io/github/last-commit/synzen/monitorss?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/synzen/monitorss?style=flat-square) | ![License](https://img.shields.io/github/license/synzen/monitorss?style=flat-square) | MonitoRSS RSS bot (formerly known as Discord.RSS) with customizable feeds. https://monitorss.xyz |
+| [MusicBot](https://github.com/jagrosh/MusicBot) | ![Commit](https://img.shields.io/github/last-commit/jagrosh/musicbot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/jagrosh/musicbot?style=flat-square) | ![License](https://img.shields.io/github/license/jagrosh/musicbot?style=flat-square) | 🎶 A Discord music bot that's easy to set up and run yourself! |
+| [Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) | ![Commit](https://img.shields.io/github/last-commit/cog-creators/red-discordbot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/cog-creators/red-discordbot?style=flat-square) | ![License](https://img.shields.io/github/license/cog-creators/red-discordbot?style=flat-square) | A multi-function Discord bot |
+| [requestrr](https://github.com/thomst08/requestrr) | ![Commit](https://img.shields.io/github/last-commit/thomst08/requestrr?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/thomst08/requestrr?style=flat-square) | ![License](https://img.shields.io/github/license/thomst08/requestrr?style=flat-square) | Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Lidarr/Ombi/Overseerr via the use of chat. Current platform is Discord only, but the bot was built around the ideology of quick adaptation for new features as well as new platforms. |
+| [skyra](https://github.com/skyra-project/skyra) | ![Commit](https://img.shields.io/github/last-commit/skyra-project/skyra?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/skyra-project/skyra?style=flat-square) | ![License](https://img.shields.io/github/license/skyra-project/skyra?style=flat-square) | A multipurpose Discord Bot designed to carry out most of your server's needs with great performance and stability. |
+| [sudobot](https://github.com/onesoft-sudo/sudobot) | ![Commit](https://img.shields.io/github/last-commit/onesoft-sudo/sudobot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/onesoft-sudo/sudobot?style=flat-square) | ![License](https://img.shields.io/github/license/onesoft-sudo/sudobot?style=flat-square) | A Discord Bot for moderation purposes. |
+| [Ticket-Bot](https://github.com/Sayrix/Ticket-Bot) | ![Commit](https://img.shields.io/github/last-commit/sayrix/ticket-bot?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/sayrix/ticket-bot?style=flat-square) | ![License](https://img.shields.io/github/license/sayrix/ticket-bot?style=flat-square) | Discord ticket bot with buttons, slash commands, select menus, modals, and transcripts system made with Discord.js v14 |
+| [tux](https://github.com/allthingslinux/tux) | ![Commit](https://img.shields.io/github/last-commit/allthingslinux/tux?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/allthingslinux/tux?style=flat-square) | ![License](https://img.shields.io/github/license/allthingslinux/tux?style=flat-square) | Tux is an all in one bot for the All Things Linux discord server. |
+| [Wave-Music](https://github.com/AkAbhijit/Wave-Music) | ![Commit](https://img.shields.io/github/last-commit/appujet/wavemusic?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/appujet/wavemusic?style=flat-square) | ![License](https://img.shields.io/github/license/appujet/wavemusic?style=flat-square) | WaveMusic is a discord music bot base in (Shoukaku) |
+| [wolfstar](https://github.com/wolfstar-project/wolfstar) | ![Commit](https://img.shields.io/github/last-commit/wolfstar-project/wolfstar?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/wolfstar-project/wolfstar?style=flat-square) | ![License](https://img.shields.io/github/license/wolfstar-project/wolfstar?style=flat-square) | A multipurpose Discord Bot designed to carry out most of your server's needs with great performance and stability. Fork of https://github.com/skyra-project/skyra |
+| [yagpdb](https://github.com/botlabs-gg/yagpdb) | ![Commit](https://img.shields.io/github/last-commit/botlabs-gg/yagpdb?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/botlabs-gg/yagpdb?style=flat-square) | ![License](https://img.shields.io/github/license/botlabs-gg/yagpdb?style=flat-square) | Yet another general purpose discord bot |
+
+## Dashboards
+
+| Project Name | ⏱️ | 🖥️ | 📄 | Description |
+| ------------ | -- | -- | - | ----------- |
+| [Core](https://github.com/Discord-Dashboard/Core) | ![Commit](https://img.shields.io/github/last-commit/discord-dashboard/core?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/discord-dashboard/core?style=flat-square) | ![License](https://img.shields.io/github/license/discord-dashboard/core?style=flat-square) | NPM module creating a Dashboard for your bot in 10 minutes without APIs knowledge and slapping code from scratch! |
+| [Discord-Server-Dashboard](https://github.com/diwasatreya/Discord-Server-Dashboard) | ![Commit](https://img.shields.io/github/last-commit/diwasatreya/discord-server-dashboard?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/diwasatreya/discord-server-dashboard?style=flat-square) | ![License](https://img.shields.io/github/license/diwasatreya/discord-server-dashboard?style=flat-square) | It is a fully responsive discord server/bot dashboard template. Here you can see login system also. |
 
 ## Developer Tools
 
-**[`^        back to top        ^`](#awesome-discord-projects)**
+| Project Name | ⏱️ | 🖥️ | 📄 | Description |
+| ------------ | -- | -- | - | ----------- |
+| [Discord-Backup](https://github.com/itschasa/Discord-Backup) | ![Commit](https://img.shields.io/github/last-commit/itschasa/discord-backup?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/itschasa/discord-backup?style=flat-square) | ![License](https://img.shields.io/github/license/itschasa/discord-backup?style=flat-square) | Backup and Restore your Discord Account (Servers, Friends + more) in minutes! |
 
-Tools and utilities that assist in Discord bot development.
+## Libraries
 
-- [Discord.js](https://github.com/discordjs/discord.js)  
-  ![GitHub stars](https://img.shields.io/github/stars/discordjs/discord.js?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/discordjs/discord.js?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/discordjs/discord.js?style=flat-square) ![License](https://img.shields.io/github/license/discordjs/discord.js?style=flat-square)  
-  The most popular JavaScript library for building custom Discord bots, with extensive documentation and community support.
+| Project Name | ⏱️ | 🖥️ | 📄 | Description |
+| ------------ | -- | -- | - | ----------- |
+| [discord.js](https://github.com/discordjs/discord.js) | ![Commit](https://img.shields.io/github/last-commit/discordjs/discord.js?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/discordjs/discord.js?style=flat-square) | ![License](https://img.shields.io/github/license/discordjs/discord.js?style=flat-square) | A powerful JavaScript library for interacting with the Discord API |
+| [Discord.Net](https://github.com/discord-net/Discord.Net) | ![Commit](https://img.shields.io/github/last-commit/discord-net/discord.net?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/discord-net/discord.net?style=flat-square) | ![License](https://img.shields.io/github/license/discord-net/discord.net?style=flat-square) | An unofficial .Net wrapper for the Discord API (https://discord.com/) |
+| [discord.py](https://github.com/Rapptz/discord.py) | ![Commit](https://img.shields.io/github/last-commit/rapptz/discord.py?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/rapptz/discord.py?style=flat-square) | ![License](https://img.shields.io/github/license/rapptz/discord.py?style=flat-square) | An API wrapper for Discord written in Python. |
+| [Discord4J](https://github.com/Discord4J/Discord4J) | ![Commit](https://img.shields.io/github/last-commit/discord4j/discord4j?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/discord4j/discord4j?style=flat-square) | ![License](https://img.shields.io/github/license/discord4j/discord4j?style=flat-square) | Discord4J is a fast, powerful, unopinionated, reactive library to enable quick and easy development of Discord bots for Java, Kotlin, and other JVM languages using the official Discord Bot API. |
+| [DisTube](https://github.com/skick1234/DisTube) | ![Commit](https://img.shields.io/github/last-commit/distubejs/distube?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/distubejs/distube?style=flat-square) | ![License](https://img.shields.io/github/license/distubejs/distube?style=flat-square) | A comprehensive Discord music bot library built for Discord.js, offering simplified music commands, effortless playback from diverse sources, and integrated audio filters. |
+| [DPP](https://github.com/brainboxdotcc/DPP) | ![Commit](https://img.shields.io/github/last-commit/brainboxdotcc/dpp?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/brainboxdotcc/dpp?style=flat-square) | ![License](https://img.shields.io/github/license/brainboxdotcc/dpp?style=flat-square) | C++ Discord API Bot Library - D++ is Lightweight and scalable for small and huge bots! |
+| [JDA](https://github.com/discord-jda/JDA) | ![Commit](https://img.shields.io/github/last-commit/dv8fromtheworld/jda?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/dv8fromtheworld/jda?style=flat-square) | ![License](https://img.shields.io/github/license/dv8fromtheworld/jda?style=flat-square) | Java wrapper for the popular chat & VOIP service: Discord https://discord.com |
+| [slash-create](https://github.com/Snazzah/slash-create) | ![Commit](https://img.shields.io/github/last-commit/snazzah/slash-create?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/snazzah/slash-create?style=flat-square) | ![License](https://img.shields.io/github/license/snazzah/slash-create?style=flat-square) | 🗡️ Creator and handler for Discord's slash commands |
 
-- [Discord-Dashboard](https://github.com/Discord-Dashboard/Core)  
-  ![GitHub stars](https://img.shields.io/github/stars/Discord-Dashboard/Core?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Discord-Dashboard/Core?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/Discord-Dashboard/Core?style=flat-square) ![License](https://img.shields.io/github/license/Discord-Dashboard/Core?style=flat-square)  
-  A framework for creating dashboards for your Discord bot.
+## Platforms
 
----
+| Project Name | ⏱️ | 🖥️ | 📄 | Description |
+| ------------ | -- | -- | - | ----------- |
+| [spacebarchat](https://github.com/spacebarchat/spacebarchat) | ![Commit](https://img.shields.io/github/last-commit/spacebarchat/spacebarchat?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/spacebarchat/spacebarchat?style=flat-square) | ![License](https://img.shields.io/github/license/spacebarchat/spacebarchat?style=flat-square) | 📬 Spacebar is a free open source selfhostable discord compatible communication platform |
 
-## Contribution Guidelines
+## Website Templates
 
-We welcome contributions to this collection! If you know of a great, open-source Discord project or want to add your own, please follow these steps:
-
-1. **Fork the repository**.
-2. **Add your project** – Create a new entry in the appropriate category with:
-
-   - **Project name**
-   - **Short description**
-   - **Link to repository**
-
-3. **Submit a Pull Request** – After adding the project, submit a pull request for review.
-
-Please make sure to follow these guidelines:
-
-- Only submit **free, open-source** projects.
-- Ensure the project's repository includes setup instructions and proper documentation.
-- Keep descriptions concise and accurate.
-
----
-
-## License
-
-[![License](https://img.shields.io/github/license/cookieauth/awesome-discord?style=flat-square)](LICENSE)
-
-This repository is licensed under the **Creative Commons Attribution 4.0 (CC BY 4.0)**. You are free to use, share, and adapt the content as long as appropriate credit is given.
+| Project Name | ⏱️ | 🖥️ | 📄 | Description |
+| ------------ | -- | -- | - | ----------- |
+| [Discord-bot-website-template](https://github.com/hadi-4100/Discord-bot-website-template) | ![Commit](https://img.shields.io/github/last-commit/hadi-koubeissi/discord-bot-website-template?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/hadi-koubeissi/discord-bot-website-template?style=flat-square) | ![License](https://img.shields.io/github/license/hadi-koubeissi/discord-bot-website-template?style=flat-square) | Amazing website designed with Bootstrap for new Discord bots. demo link: https://demo-discordbot-website-template.glitch.me/src/ |
+| [discord.place](https://github.com/discordplace/discord.place) | ![Commit](https://img.shields.io/github/last-commit/discordplace/discord.place?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/discordplace/discord.place?style=flat-square) | ![License](https://img.shields.io/github/license/discordplace/discord.place?style=flat-square) | Repository containing client and server files of discord.place website. |
