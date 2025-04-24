@@ -27,3 +27,10 @@
 | Project Name | ⏱️ | 🖥️ | 📄 | 🏷️ Archived | Description |
 | ------------ | -- | -- | - | ----------- | ----------- |
 | [discord-bot-landing-page-web](https://github.com/JastinXyz/discord-bot-landing-page-web) | ![Commit](https://img.shields.io/github/last-commit/jastinxyz/discord-bot-landing-page-web?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/jastinxyz/discord-bot-landing-page-web?style=flat-square) | ![License](https://img.shields.io/github/license/jastinxyz/discord-bot-landing-page-web?style=flat-square) |  | Free Discord Bot Website Template Made With Bulma (landing page only) |
+
+
+## Libraries
+| Project Name | ⏱️ | 🖥️ | 📄 | 🏷️ Archived | Description |
+| ------------ | -- | -- | - | ----------- | ----------- |
+| [aegis.cpp](https://github.com/zeroxs/aegis.cpp) | [@zeroxs](https://github.com/zeroxs) | ![Commit](https://img.shields.io/github/last-commit/zeroxs/aegis.cpp?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/zeroxs/aegis.cpp?style=flat-square) | ![License](https://img.shields.io/github/license/zeroxs/aegis.cpp?style=flat-square) | Discord C++ library for interfacing with the API. Join our server: https://discord.gg/w7Y3Bb8 |
+| [DisCPP](https://github.com/DisCPP/DisCPP) | [@DisCPP](https://github.com/DisCPP) | ![Commit](https://img.shields.io/github/last-commit/DisCPP/DisCPP?style=flat-square) | ![Lang](https://img.shields.io/github/languages/top/DisCPP/DisCPP?style=flat-square) | ![License](https://img.shields.io/github/license/DisCPP/DisCPP?style=flat-square) | Simplified, but feature rich Discord API wrapper written in modern C++. |
