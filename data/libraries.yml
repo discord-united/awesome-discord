@@ -1,0 +1,64 @@
+# Libraries - APIs and SDKs for Discord development
+- name: "discord.js"
+  repo: "discordjs/discord.js"
+  description: "A powerful JavaScript library for interacting with the Discord API."
+  language: "JavaScript"
+  license: "Apache-2.0"
+  activity: "active"
+  tags: ["javascript", "api-wrapper", "popular"]
+
+- name: "Discord.Net"
+  repo: "discord-net/Discord.Net"
+  description: "An unofficial .Net wrapper for the Discord API."
+  language: "C#"
+  license: "MIT"
+  activity: "active"
+  tags: ["csharp", "dotnet", "api-wrapper"]
+
+- name: "discord.py"
+  repo: "Rapptz/discord.py"
+  description: "An API wrapper for Discord written in Python."
+  language: "Python"
+  license: "MIT"
+  activity: "active"
+  tags: ["python", "api-wrapper", "popular"]
+
+- name: "Discord4J"
+  repo: "Discord4J/Discord4J"
+  description: "Discord4J is a fast, powerful, unopinionated, reactive library for Discord Bot API development."
+  language: "Java"
+  license: "LGPL-3.0"
+  activity: "active"
+  tags: ["java", "reactive", "api-wrapper"]
+
+- name: "DisTube"
+  repo: "skick1234/DisTube"
+  description: "A comprehensive Discord music bot library built for Discord.js with audio filters."
+  language: "JavaScript"
+  license: "MIT"
+  activity: "active"
+  tags: ["music", "discord.js", "audio"]
+
+- name: "DPP"
+  repo: "brainboxdotcc/DPP"
+  description: "C++ Discord API Bot Library - D++ is Lightweight and scalable for small and huge bots."
+  language: "C++"
+  license: "Apache-2.0"
+  activity: "active"
+  tags: ["cpp", "performance", "scalable"]
+
+- name: "JDA"
+  repo: "discord-jda/JDA"
+  description: "Java wrapper for the popular chat & VOIP service: Discord."
+  language: "Java"
+  license: "Apache-2.0"
+  activity: "active"
+  tags: ["java", "api-wrapper", "popular"]
+
+- name: "slash-create"
+  repo: "Snazzah/slash-create"
+  description: "Creator and handler for Discord's slash commands."
+  language: "JavaScript"
+  license: "MIT"
+  activity: "active"
+  tags: ["slash-commands", "javascript", "interactions"]

@@ -1,0 +1,97 @@
+name: 📦 Add Project
+description: Suggest a new project to be added to the awesome list
+title: "[ADD] "
+labels: ["enhancement", "new-project"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a new project! Please fill out the information below.
+        
+        **Note:** You can also submit a pull request directly by editing the appropriate YAML file in `data/`.
+
+  - type: input
+    id: name
+    attributes:
+      label: Project Name
+      description: The name of the project
+      placeholder: "Example: MyAwesomeBot"
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      description: GitHub repository or other source code URL
+      placeholder: "https://github.com/user/repo"
+    validations:
+      required: true
+
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage/Website
+      description: Official website or documentation (if different from repository)
+      placeholder: "https://example.com"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the project (under 140 characters, ending with a period)
+      placeholder: "A Discord bot that provides music playback with queue management."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this project belong to?
+      options:
+        - Bot Templates
+        - Bots
+        - Dashboards
+        - Developer Tools
+        - Libraries
+        - Platforms
+        - Website Templates
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Primary Language
+      description: Main programming language used
+      placeholder: "JavaScript"
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: Software license (e.g., MIT, GPL-3.0, Apache-2.0)
+      placeholder: "MIT"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Requirements Check
+      description: Please confirm the project meets our requirements
+      options:
+        - label: The project is open-source with a clear license
+          required: true
+        - label: The project has been active within the last 12 months OR has a recent release
+          required: true
+        - label: The project is specifically designed for Discord
+          required: true
+        - label: The project is well-documented and functional
+          required: true

@@ -1,0 +1,11 @@
+# Global owners for all files
+* @discord-united/maintainers
+
+# Data files require extra scrutiny
+/data/ @discord-united/maintainers @discord-united/reviewers
+
+# Scripts and configuration
+/scripts/ @discord-united/maintainers
+/.github/ @discord-united/maintainers
+/package.json @discord-united/maintainers
+/tsconfig.json @discord-united/maintainers

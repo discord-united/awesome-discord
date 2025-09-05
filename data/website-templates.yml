@@ -1,0 +1,16 @@
+# Website Templates - Templates for Discord-related websites
+- name: "Discord-bot-website-template"
+  repo: "hadi-4100/Discord-bot-website-template"
+  description: "Amazing website designed with Bootstrap for new Discord bots."
+  language: "HTML"
+  license: "MIT"
+  activity: "active"
+  tags: ["bootstrap", "website", "template"]
+
+- name: "discord.place"
+  repo: "discordplace/discord.place"
+  description: "Repository containing client and server files of discord.place website."
+  language: "JavaScript"
+  license: "MIT"
+  activity: "active"
+  tags: ["website", "full-stack", "community"]

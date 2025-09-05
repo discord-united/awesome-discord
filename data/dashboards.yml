@@ -1,0 +1,16 @@
+# Dashboards - Web interfaces for bot management
+- name: "Core"
+  repo: "Discord-Dashboard/Core"
+  description: "NPM module creating a Dashboard for your bot in 10 minutes without APIs knowledge."
+  language: "JavaScript"
+  license: "MIT"
+  activity: "active"
+  tags: ["npm", "web-dashboard", "easy-setup"]
+
+- name: "Discord-Server-Dashboard"
+  repo: "diwasatreya/Discord-Server-Dashboard"
+  description: "A fully responsive discord server/bot dashboard template with login system."
+  language: "JavaScript"
+  license: "MIT"
+  activity: "active"
+  tags: ["template", "responsive", "login"]

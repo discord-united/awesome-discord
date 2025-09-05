@@ -1,0 +1,8 @@
+# Developer Tools - Utilities for Discord development
+- name: "Discord-Backup"
+  repo: "itschasa/Discord-Backup"
+  description: "Backup and Restore your Discord Account (Servers, Friends + more) in minutes."
+  language: "Python"
+  license: "GPL-3.0"
+  activity: "active"
+  tags: ["backup", "restore", "utility"]

@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Run nightly link validation at 2 AM UTC
+    - cron: '0 2 * * *'
+
+jobs:
+  validate-and-lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Validate YAML data
+        run: npm run validate:data
+        
+      - name: Generate README
+        run: npm run generate
+        
+      - name: Check for changes in generated files
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "❌ Generated files are out of sync!"
+            echo "Please run 'npm run generate' locally and commit the changes."
+            git diff
+            exit 1
+          fi
+          
+      - name: Lint Awesome List
+        run: npm run lint:awesome
+        
+      - name: Lint Markdown
+        run: npm run lint:md
+        
+      - name: Validate links (on schedule or manual trigger)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: npm run lint:links
+        
+      - name: Quick link check (on PR/push)
+        if: github.event_name != 'schedule' && github.event_name != 'workflow_dispatch'
+        run: timeout 300 npm run lint:links || echo "Link validation timed out - will run in nightly job"

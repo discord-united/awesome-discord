@@ -1,0 +1,49 @@
+name: 📁 Category Request
+description: Request a new category for the awesome list
+title: "[CATEGORY] "
+labels: ["enhancement", "category-request"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new category! This helps us organize projects better.
+
+  - type: input
+    id: category-name
+    attributes:
+      label: Category Name
+      description: Proposed name for the new category
+      placeholder: "Example: Discord Themes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Category Description
+      description: Brief description of what projects would belong in this category
+      placeholder: "Custom themes and styling for Discord clients"
+    validations:
+      required: true
+
+  - type: textarea
+    id: example-projects
+    attributes:
+      label: Example Projects
+      description: List 3-5 example projects that would fit in this category
+      placeholder: |
+        - Project A: https://github.com/...
+        - Project B: https://github.com/...
+        - Project C: https://github.com/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Why is this category needed? How is it different from existing categories?
+      placeholder: "This category would help organize Discord customization projects that don't fit in the existing categories..."
+    validations:
+      required: true

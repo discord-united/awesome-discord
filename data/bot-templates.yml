@@ -1,0 +1,16 @@
+# Bot Templates - Ready-to-use bot starter templates
+- name: "discordjs-v14-template-ts"
+  repo: "MericcaN41/discordjs-v14-template-ts"
+  description: "A typescript template for Discord.js v14 that includes handlers, slash commands, mongodb, permissions and more."
+  language: "TypeScript"
+  license: "MIT"
+  activity: "active"
+  tags: ["discord.js", "template", "mongodb", "slash-commands"]
+
+- name: "Python-Discord-Bot-Template"
+  repo: "kkrypt0nn/Python-Discord-Bot-Template"
+  description: "A simple template to start to code your own and personalized Discord bot in Python."
+  language: "Python"
+  license: "GPL-3.0"
+  activity: "active"
+  tags: ["python", "discord.py", "template"]

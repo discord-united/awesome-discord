@@ -1,0 +1,8 @@
+# Platforms - Alternative Discord-compatible platforms
+- name: "spacebarchat"
+  repo: "spacebarchat/spacebarchat"
+  description: "Spacebar is a free open source selfhostable discord compatible communication platform."
+  language: "TypeScript"
+  license: "AGPL-3.0"
+  activity: "active"
+  tags: ["self-hosted", "discord-compatible", "alternative"]

@@ -1,0 +1,32 @@
+{
+  "name": "remark-lint-final-newline",
+  "version": "1.0.5",
+  "description": "remark-lint rule to warn when a newline at the end of a file is missing",
+  "license": "MIT",
+  "keywords": [
+    "remark",
+    "lint",
+    "rule",
+    "remark-lint-rule",
+    "final",
+    "newline",
+    "unix"
+  ],
+  "repository": "https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-final-newline",
+  "bugs": "https://github.com/remarkjs/remark-lint/issues",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/unified"
+  },
+  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "unified-lint-rule": "^1.0.0"
+  },
+  "xo": false
+}

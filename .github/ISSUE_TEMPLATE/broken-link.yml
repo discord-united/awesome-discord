@@ -1,0 +1,59 @@
+name: 🔗 Broken Link
+description: Report a broken or dead link
+title: "[BROKEN] "
+labels: ["bug", "broken-link"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us maintain the quality of our list by reporting broken links!
+
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      description: Name of the project with the broken link
+      placeholder: "Example: MyAwesomeBot"
+    validations:
+      required: true
+
+  - type: input
+    id: broken-url
+    attributes:
+      label: Broken URL
+      description: The URL that is not working
+      placeholder: "https://github.com/user/repo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What type of issue is this?
+      options:
+        - Repository not found (404)
+        - Repository archived by owner
+        - Repository made private
+        - Homepage/website not working
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Action
+      description: What should we do? (e.g., remove project, move to inactive, find alternative URL)
+      placeholder: "Suggest moving to INACTIVE.md as the repository hasn't been updated in 2 years."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other relevant information
+    validations:
+      required: false

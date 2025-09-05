@@ -1,0 +1,45 @@
+{
+  "name": "awesome-discord",
+  "version": "1.0.0",
+  "description": "A curated list of high-quality, community-driven open-source Discord projects",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write . && markdownlint \"**/*.md\" --fix",
+    "lint:awesome": "awesome-lint",
+    "lint:md": "markdownlint \"**/*.md\"",
+    "lint:links": "linkinator README.md --recurse --timeout 60000",
+    "generate": "ts-node scripts/generate-readme.ts",
+    "validate:data": "ts-node scripts/validate-data.ts",
+    "ci": "npm run validate:data && npm run generate && npm run lint:awesome && npm run lint:md && npm run lint:links"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discord-united/awesome-discord.git"
+  },
+  "keywords": [
+    "awesome",
+    "discord",
+    "bot",
+    "library",
+    "open-source",
+    "curated-list"
+  ],
+  "author": "Discord United",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/discord-united/awesome-discord/issues"
+  },
+  "homepage": "https://github.com/discord-united/awesome-discord#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "awesome-lint": "^0.18.0",
+    "linkinator": "^6.0.0",
+    "markdownlint-cli": "^0.37.0",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0",
+    "yaml": "^2.3.0",
+    "zod": "^3.22.0"
+  }
+}

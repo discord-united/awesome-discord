@@ -1,0 +1,136 @@
+# Bots - Complete Discord bots (open-source)
+- name: "airhornbot"
+  repo: "discord/airhornbot"
+  description: "The only bot for Discord you'll ever need."
+  language: "Go"
+  license: "MIT"
+  activity: "active"
+  tags: ["official", "airhorn"]
+
+- name: "AnswerOverflow"
+  repo: "AnswerOverflow/AnswerOverflow"
+  description: "Powering Discord content discovery by making web pages from threads for some of the largest servers."
+  language: "TypeScript"
+  license: "AGPL-3.0"
+  activity: "active"
+  tags: ["seo", "threads", "web-indexing"]
+
+- name: "AtlantaBot"
+  repo: "Androz2091/AtlantaBot"
+  description: "Another powerful Discord Bot with a web-dashboard used by more than 130k users."
+  language: "JavaScript"
+  license: "MIT"
+  activity: "active"
+  tags: ["multipurpose", "dashboard", "web"]
+
+- name: "bot"
+  repo: "discord-tickets/bot"
+  description: "The most popular open-source and self-hosted ticket management bot for Discord."
+  language: "JavaScript"
+  license: "GPL-3.0"
+  activity: "active"
+  tags: ["tickets", "support", "moderation"]
+
+- name: "ClemBot"
+  repo: "ClemBotProject/ClemBot"
+  description: "A Discord bot for server management with an emphasis on modularity and configuration."
+  language: "Python"
+  license: "MIT"
+  activity: "active"
+  tags: ["moderation", "management", "modular"]
+
+- name: "discord-masz"
+  repo: "zaanposni/discord-masz"
+  description: "MASZ is a selfhostable highly sophisticated moderation bot for Discord."
+  language: "C#"
+  license: "AGPL-3.0"
+  activity: "active"
+  tags: ["moderation", "web-dashboard", "self-hosted"]
+
+- name: "Discord-MusicBot"
+  repo: "SudhanPlayz/Discord-MusicBot"
+  description: "An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Web Dashboard."
+  language: "JavaScript"
+  license: "Apache-2.0"
+  activity: "active"
+  tags: ["music", "spotify", "youtube", "dashboard"]
+
+- name: "evobot"
+  repo: "eritislami/evobot"
+  description: "EvoBot is a Discord Music Bot built with TypeScript + Discord.js, includes Docker builds."
+  language: "TypeScript"
+  license: "MIT"
+  activity: "active"
+  tags: ["music", "docker", "localization"]
+
+- name: "InterChat"
+  repo: "interchatapp/InterChat"
+  description: "A powerful Discord bot for easy and real-time chatting across multiple Discord servers."
+  language: "TypeScript"
+  license: "GPL-3.0"
+  activity: "active"
+  tags: ["interchat", "cross-server", "networking"]
+
+- name: "Lightning"
+  repo: "lightning-bot/Lightning"
+  description: "Empower your Discord moderators with the best moderation tools."
+  language: "Python"
+  license: "AGPL-3.0"
+  activity: "active"
+  tags: ["moderation", "automod", "security"]
+
+- name: "Loritta"
+  repo: "LorittaBot/Loritta"
+  description: "A multipurpose, multilanguage, customizable, modular, and very cute bot for Discord."
+  language: "Kotlin"
+  license: "AGPL-3.0"
+  activity: "active"
+  tags: ["multipurpose", "multilanguage", "modular"]
+
+- name: "Modmail"
+  repo: "modmail-dev/Modmail"
+  description: "A Discord bot that functions as a shared inbox between staff and members, similar to Reddit's Modmail."
+  language: "Python"
+  license: "AGPL-3.0"
+  activity: "active"
+  tags: ["modmail", "support", "staff-tools"]
+
+- name: "MonitoRSS"
+  repo: "synzen/MonitoRSS"
+  description: "MonitoRSS RSS bot with customizable feeds."
+  language: "JavaScript"
+  license: "Apache-2.0"
+  activity: "active"
+  tags: ["rss", "feeds", "news"]
+
+- name: "MusicBot"
+  repo: "jagrosh/MusicBot"
+  description: "A Discord music bot that's easy to set up and run yourself."
+  language: "Java"
+  license: "Apache-2.0"
+  activity: "active"
+  tags: ["music", "java", "jda"]
+
+- name: "Red-DiscordBot"
+  repo: "Cog-Creators/Red-DiscordBot"
+  description: "A multi-function Discord bot."
+  language: "Python"
+  license: "GPL-3.0"
+  activity: "active"
+  tags: ["multipurpose", "cogs", "modular"]
+
+- name: "skyra"
+  repo: "skyra-project/skyra"
+  description: "A multipurpose Discord Bot designed to carry out most of your server's needs with great performance."
+  language: "TypeScript"
+  license: "Apache-2.0"
+  activity: "active"
+  tags: ["multipurpose", "performance", "modular"]
+
+- name: "yagpdb"
+  repo: "botlabs-gg/yagpdb"
+  description: "Yet another general purpose discord bot."
+  language: "Go"
+  license: "MIT"
+  activity: "active"
+  tags: ["multipurpose", "web-dashboard", "custom-commands"]
